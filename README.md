@@ -23,8 +23,8 @@ Configuración de página web de onlyflans Desafio Latam
 
 <summary>Hito 1</summary>
 
-![App Screenshot](Hitos-ft/Hito1-1.PNG)
-![App Screenshot](Hitos-ft/Hito1-2.PNG)
+![App Screenshot](Hitos-ft/Hito1-1.PNG=75x125)
+![App Screenshot](Hitos-ft/Hito1-2.PNG=75x125)
 ![App Screenshot](Hitos-ft/Hito1-3.PNG)
 ![App Screenshot](Hitos-ft/Hito1-4.PNG)
 
