@@ -1,8 +1,21 @@
-{% extends "base.html" %}
+{% extends "base.html"%}
 
 {% block 'contenido'%}
-<div style="background: white;">
-  <h2>Acerca de</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci illum mollitia ab odit fuga repellendus earum laboriosam, similique assumenda tempora sint hic, enim voluptas laudantium! Quia delectus odio maiores!</p>
-</div>
+{% load static %}
+  <div class="container mt-3"> <strong></strong>
+    <p>¡Bienvenido a <strong>OnlyfLans,</strong> el santuario donde no solo degustas un flan, sino que vives una experiencia lulinaria que encantará todos tus sentidos! </p>
+      <img style="with:65px; height:40px;" src={% static 'OnlyFlans.png' %} alt="Flancito">
+    <p>
+      En <strong>OnlyFLans,</strong> cada momento es una oportunidad para sumergirte en el amor y la magia detrás de este postre emblemático. Estamos aquí para compartir la dicha y el sabor de nuestros flanes con el mundo entero, llevándote en un viaje de sabores que te dejarán sin aliento.</br>
+      <img style="with:65px; height:40px;" src={% static 'OnlyFlans.png' %} alt="Flancito">
+    </p>
+    <p>
+      En nuestro oasis flanero, te espera un mundo de sabores que te transportarán a tus recuerdos más dulces y entrañables. Desde el abrazo cálido de nuestro flan de vainilla hasta la aventura exótica de nuestro flan de coco o el romance decadente de nuestro flan de chocolate, cada bocado es una experiencia única, elaborada con amor y dedicación. </br>
+      <img style="with:65px; height:40px;" src={% static 'OnlyFlans.png' %} alt="Flancito">
+    </p>
+    <p>
+      En <strong>OnlyFLans,</strong> te invitamos a sumergirte en una experiencia culinaria como ninguna otra. Ven y descubre por qué nuestro flan es simplemente incomparable, mientras te sumerges en un mundo de sabores, aromas y emociones que te dejarán maravillado.</br>
+      ¡Gracias por elegir <strong>OnlyFLans,</strong> para deleitar tu alma con la experiencia lulinaria definitiva! Tu apoyo significa el mundo para nosotros y estamos emocionados de compartir este viaje contigo.
+    </p>
+  </div>
 {% endblock %}

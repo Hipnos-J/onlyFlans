@@ -1,17 +1,18 @@
 {% extends "base.html" %}
-
-{% block 'contenido'%}
-<div style="background: white;">
-  <div class="row">
-{% for flan in flanes %}
-  <div class="card" style="width: 18rem;">
-    <img src="{{flan.image_url}}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">{{flan.name}}</h5>
-      <p class="card-text">{{flan.description}}</p>
-      <a href="#" class="btn btn-primary">Receta</a>
-    </div>
-  </div>
-{% endfor %}
+{% block 'contenido' %}
+  <h1 class="text-center">El flan es tuyo, aqui tus favoritos {{ user.username|upper }}</h1>
+  <div class="container mt-5 mb-5 pb-5">
+    <div class="row pb-5">
+      {% for flan in flanes %}
+        <div class="card m-2" style="width: 18rem;">
+          <img src="{{ flan.image_url }}" class="card-img-top w-100 h-100 mt-2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center text-uppercase">{{ flan.name }}</h5>
+            <div class="text-center">
+              <a href="/flan/{{ flan.id }}" class="btn btn-outline-secondary">Detalles</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
   </div>
 {% endblock %}

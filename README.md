@@ -23,8 +23,8 @@ Configuración de página web de onlyflans Desafio Latam
 
 <summary>Hito 1</summary>
 
-![App Screenshot](Hitos-ft/Hito1-1.PNG =75x125)
-![App Screenshot](Hitos-ft/Hito1-2.PNG =75x125)
+![App Screenshot](Hitos-ft/Hito1-1.PNG)
+![App Screenshot](Hitos-ft/Hito1-2.PNG)
 ![App Screenshot](Hitos-ft/Hito1-3.PNG)
 ![App Screenshot](Hitos-ft/Hito1-4.PNG)
 
@@ -51,7 +51,20 @@ Configuración de página web de onlyflans Desafio Latam
 ![App Screenshot](Hitos-ft/Hito3-5.PNG)
 ![App Screenshot](Hitos-ft/Hito3-6.PNG)
 ![App Screenshot](Hitos-ft/Hito3-7.PNG)
-![App Screenshot](Hitos-ft/Hito3-8.PNG)
+
+</details>
+<details>
+
+<summary>Hito 4</summary>
+
+![App Screenshot](Hitos-ft/Hito4-1.PNG)
+![App Screenshot](Hitos-ft/Hito4-2.PNG)
+![App Screenshot](Hitos-ft/Hito4-3.PNG)
+![App Screenshot](Hitos-ft/Hito4-4.PNG)
+![App Screenshot](Hitos-ft/Hito4-5.PNG)
+![App Screenshot](Hitos-ft/Hito4-6.PNG)
+![App Screenshot](Hitos-ft/Hito4-7.PNG)
+![App Screenshot](Hitos-ft/Hito4-8.PNG)
 
 </details>
 
